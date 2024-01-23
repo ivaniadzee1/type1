@@ -1,0 +1,53 @@
+.secondBtn {
+    width: 10px;
+    height: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    position: sticky;
+     overflow: hidden;
+     position: absolute;
+     left: 90%;
+     transform: translate(-90%);
+     background-color: rgba(32, 238, 176, 1);
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(32, 238, 176, 1);
+    border-radius: 20px;
+    position: sticky;
+     overflow: hidden;
+     position: absolute;
+     left: 90%;
+     transform: translate(-90%);
+     color: white;
+}
+.delete{
+   position: absolute;
+   right: -30px;
+   top: 24px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    width: 373px;
+    height: 44px;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.todotxt{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(13, 13, 13, 1);
+
+}
